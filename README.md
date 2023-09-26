@@ -22,6 +22,8 @@ _...Oh well, what's done is done._
 > 
 > _Please note that the .zip archive hashes available in this library will not align with those on the WordPress release archive page, as those are md5 and sha1 hashes, not sha256._
 
+---
+
 ## Version Grouping
 Each version is conveniently organized into folders and subfolders. This allows for easy access to specific sets of data:
 
