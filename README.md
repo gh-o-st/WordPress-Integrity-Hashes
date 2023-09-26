@@ -27,4 +27,7 @@ Each version is conveniently organized into folders and subfolders. This allows 
 Navigate to the directory corresponding to the version or versions of interest. The JSON files contain the file hashes required for integrity verification, allowing you to consume the data as needed for your specific requirements.
 
 <hr>
+
 Feel free to tailor this to better suit the specifics of your project!
+
+> **Note**: These hashes are meant for integrity verification and are not a substitute for security measures like code audits.
