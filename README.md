@@ -11,10 +11,11 @@ The hashes were all made programmatically, but verified _visually_ (eg. ensuring
 1. Up-to-Date Coverage: This library stays current with each new WordPress release, ensuring that you have access to the most recent file hashes.
 2. Flexible Data Consumption: Files are organized to allow you to choose the level of granularity you need—whether that’s a specific version (e.g., 1.0-platinum) or a group of versions (e.g., all 1.0.x releases).
 3. Minimized Collision Risk: I used SHA-256 for hashing to minimize the risk of hash collisions, given the sheer number of files being hashed.
--
-Hmm, now that I think about it, that last point doesn't even matter. The volume is from the aggregation of versions. Each release would have miniscule chances of collisions using md5 or sha1 for its respective list of files...
+
+Hmm, now that I think about it, that last point doesn't even matter. The volume is from the aggregation of versions. Each release would have miniscule chances of collisions using md5 or sha1 for its respective list of files.
 <br><br><br>
 _...Oh well, what's done is done._
+
 ---
 
 > _**A Note on Archive Hashes**_
