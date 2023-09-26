@@ -1,5 +1,4 @@
 # WordPress Integrity Hashes
-## Introduction
 The WordPress Integrity Hashes library is an ongoing effort aimed at offering an up-to-date set of file hashes for each WordPress version release. This repository serves as a centralized and reliable source for verifying the integrity of your WordPress installations.
 
 ## Key Features
@@ -8,6 +7,7 @@ The WordPress Integrity Hashes library is an ongoing effort aimed at offering an
 3. Minimized Collision Risk: I used SHA-256 for hashing to minimize the risk of hash collisions, given the sheer number of files being hashed.
 
 > _**A Note on Archive Hashes**_
+> 
 > _Please note that the .zip archive hashes available in this library will not align with those on the WordPress release archive page. We use SHA-256 hashes specifically to minimize the risk of hash collisions due to the large volume of files._
 
 ## Version Grouping
