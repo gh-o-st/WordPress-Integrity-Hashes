@@ -7,8 +7,8 @@ The WordPress Integrity Hashes library is an ongoing effort aimed at offering an
 2. Flexible Data Consumption: Files are organized to allow you to choose the level of granularity you need—whether that’s a specific version (e.g., 1.0-platinum) or a group of versions (e.g., all 1.0.x releases).
 3. Minimized Collision Risk: I used SHA-256 for hashing to minimize the risk of hash collisions, given the sheer number of files being hashed.
 
-## _A Note on Archive Hashes_
-Please note that the .zip archive hashes available in this library will not align with those on the WordPress release archive page. We use SHA-256 hashes specifically to minimize the risk of hash collisions due to the large volume of files.
+># _A Note on Archive Hashes_
+> Please note that the .zip archive hashes available in this library will not align with those on the WordPress release archive page. We use SHA-256 hashes specifically to minimize the risk of hash collisions due to the large volume of files.
 
 ## Version Grouping
 Each version is conveniently organized into folders and subfolders. This allows for easy access to specific sets of data:
