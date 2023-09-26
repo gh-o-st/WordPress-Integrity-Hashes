@@ -24,6 +24,7 @@ Each version is conveniently organized into folders and subfolders. This allows 
 * Second-Tier Group: Further grouping based on the second digit (e.g., 1.0.x, 1.2.x).
 * Version-Specific Group: Focused data for a specific release (e.g., 1.0-platinum, 2.0-gold).
 
+```
 WordPress Integrity Hashes
 ├── 1.x
 │   ├── 1.0.x
@@ -41,6 +42,7 @@ WordPress Integrity Hashes
     └── 3.1.x
         └── 3.1
 //...
+```
 
 ## How to Use
 Navigate to the directory corresponding to the version or versions of interest. The JSON files contain the file hashes required for integrity verification, allowing you to consume the data as needed for your specific requirements. Feel free to tailor this to better suit the specifics of your project!
