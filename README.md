@@ -11,6 +11,7 @@ The hashes were all made programmatically, but verified _visually_ (eg. ensuring
 1. Up-to-Date Coverage: This library stays current with each new WordPress release, ensuring that you have access to the most recent file hashes.
 2. Flexible Data Consumption: Files are organized to allow you to choose the level of granularity you need—whether that’s a specific version (e.g., 1.0-platinum) or a group of versions (e.g., all 1.0.x releases).
 3. Minimized Collision Risk: I used SHA-256 for hashing to minimize the risk of hash collisions, given the sheer number of files being hashed.
+---
 
 > _**A Note on Archive Hashes**_
 > 
@@ -24,9 +25,6 @@ Each version is conveniently organized into folders and subfolders. This allows 
 * Version-Specific Group: Focused data for a specific release (e.g., 1.0-platinum, 2.0-gold).
 
 ## How to Use
-Navigate to the directory corresponding to the version or versions of interest. The JSON files contain the file hashes required for integrity verification, allowing you to consume the data as needed for your specific requirements.
-
----
-Feel free to tailor this to better suit the specifics of your project!
+Navigate to the directory corresponding to the version or versions of interest. The JSON files contain the file hashes required for integrity verification, allowing you to consume the data as needed for your specific requirements. Feel free to tailor this to better suit the specifics of your project!
 
 _**Note**: These hashes are meant for integrity verification and are not a substitute for security measures like code audits._
