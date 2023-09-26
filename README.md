@@ -1,5 +1,5 @@
 # WordPress Integrity Hashes
-The WordPress Integrity Hashes library is an ongoing effort aimed at offering an up-to-date set of file hashes for each WordPress version release. This repository serves as a centralized and reliable source for verifying the integrity of your WordPress installations.
+This library is an ongoing effort aimed at offering an up-to-date set of file hashes for each WordPress version release. This repository serves as a centralized and reliable source for verifying the integrity of your WordPress installations.
 
 The hashes were all made programmatically, but verified _visually_ (eg. ensuring the file wasn't empty, etc) by me, as well as some random sample testing to ensure the process was working as expected. Each version was downloaded, the resulting archive hashed, then unzipped and the following rules were used to determine what to hash:
 
